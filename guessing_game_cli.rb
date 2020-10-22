@@ -8,7 +8,6 @@ def run_guessing_game
   input = get_user_input
   if input == "exit" 
     puts "Goodbye!"
-    break
   elsif input.to_i == random_number
     puts "You guessed the correct number!"
   elsif input != random_number
